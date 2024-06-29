@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('SueEllenFrancisco-Regular.ttf') format('ttf'),
+         url('SueEllenFrancisco-Regular.ttf') format('ttf');
+}
+
+
+
+body, html {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Brush Script MT", cursive;
+}
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 10%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.box2 {
+    width: 550px; /* Adjust as needed */
+    height: 350px; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0);
+    border: 6px solid #0004ff;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box2 img {
+    width: 550px;
+    height:350px;
+    border-radius: 200px;
+}
+.box3 {
+    width: 550px; /* Adjust as needed */
+    height: 350px; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0);
+    border: 6px solid #ff0000;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box3 img {
+    width: 550px;
+    height:350px;
+    border-radius: 200px;
+}
+
+.text{
+   
+    color: #ffffff;
+    text-shadow: 20px 20px 40px rgba(0, 0, 0, 0.7); /* Shadow to enhance text visibility */
+    background-color: #ffffffc5;
+background-blend-mode: color-dodge;
+font-size: 20px;
+    position: absolute;
+    top:5px;
+    left:12px;
+
+    
+}
+
+.text2{
+    
+  color:#ff0000;
+position: absolute;
+size-adjust: 400%;
+    top: 1740px;
+    right: 2%;
+    left: 9%;
+}
+h1{
+    color: #000000;
+
+}
+.box1 {
+    width: 430px; 
+    height: 430px; 
+    background-color: rgba(255, 255, 255, 0);
+    border: 6px solid #f700ff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1 img {
+    width: 430px;
+    height:430px;
+    border-radius: 10px;
+}
+button1 {
+    position: relative;
+    background: rgba(255, 255, 255, 0.897);;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 30;
+    margin: 20px;
+    padding: 15px 390px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Pangolin;
+    font-weight: bold;
+    cursor: pointer;
+    top: 29%;
+    left: 20px;
+    text-transform: uppercase;
+}
+
+.button1Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto 35px;
+}
+button2 {
+    position: relative;
+    background:rgba(255, 255, 255, 0.74);
+    box-sizing: border-box;
+    border-radius: 2rem;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 30;
+    margin: 20px;
+    padding: 18px 390px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Pangolin;
+    font-weight: bold;
+    cursor: pointer;
+    top: 60%;
+    left: 20px;
+    text-transform: uppercase;
+}
+
+.button2Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto 35px;
+}
+button {
+    position: relative;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    align-self: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 20px;
+    padding: 40px 255px;
+    text-align: center;
+    background-color: #ffffff54;
+    color: rgb(0, 0, 0);
+    font-family: Pangolin;
+    font-weight: bold;
+    cursor: pointer;
+    top: 89%;
+  
+    left: 110px;
+    text-transform: uppercase;
+}
+
+.buttonBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto 35px;
+}
