@@ -47,6 +47,7 @@ video {
 .box2 img {
     width: 550px;
     height:350px;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
     border-radius: 200px;
 }
 .box3 {
@@ -69,6 +70,7 @@ video {
     width: 550px;
     height:350px;
     border-radius: 200px;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
 }
 
 .text{
@@ -99,25 +101,28 @@ h1{
 
 }
 .box1 {
-    width: 430px; 
-    height: 430px; 
+    width: 230px; 
+    height: 230px; 
     background-color: rgba(255, 255, 255, 0);
-    border: 6px solid #f700ff;
-    border-radius: 15px;
+   
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top:48%;
-    left: 50%;
+    left: 75%;
     transform: translate(-50%, -50%);
+    
 }
 
 .box1 img {
     width: 430px;
     height:430px;
     border-radius: 10px;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    
+    
 }
 button1 {
     position: relative;
@@ -127,16 +132,17 @@ button1 {
     position: absolute;
     font-size: 30px;
     font-weight: 30;
-    margin: 20px;
+    margin: 0px;
     padding: 15px 390px;
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: Pangolin;
     font-weight: bold;
     cursor: pointer;
-    top: 29%;
+    top: 30%;
     left: 20px;
     text-transform: uppercase;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
 }
 
 .button1Box {
@@ -154,16 +160,18 @@ button2 {
     position: absolute;
     font-size: 30px;
     font-weight: 30;
-    margin: 20px;
+    margin: 0px;
     padding: 18px 390px;
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: Pangolin;
     font-weight: bold;
     cursor: pointer;
-    top: 60%;
+    top: 62%;
     left: 20px;
     text-transform: uppercase;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    
 }
 
 .button2Box {
@@ -172,6 +180,7 @@ button2 {
     justify-content: center;
     max-width: 1000px;
     margin: 10px auto 35px;
+    
 }
 button {
     position: relative;
@@ -190,6 +199,8 @@ button {
     font-weight: bold;
     cursor: pointer;
     top: 89%;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    
   
     left: 110px;
     text-transform: uppercase;
@@ -200,5 +211,46 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1000px;
+    
     margin: 10px auto 35px;
+}
+.box6 {
+    width: 230px; 
+    height: 230px; 
+    background-color: rgba(255, 255, 255, 0);
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:48%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.box6 img {
+    width: 430px;
+    height:430px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+.arrow1{
+    position: relative;
+    top: 950px;
+    right: 20px;
+    
+}
+.arrow1{
+    position: relative;
+}
+.arrow{
+    position: relative;
+    top: 30px;
+    right: 20px;
+    
+}
+.arrow{
+    position: relative;
 }
