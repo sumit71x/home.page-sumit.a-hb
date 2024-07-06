@@ -15,18 +15,6 @@ body, html {
     overflow: hidden;
     font-family: "Brush Script MT", cursive;
 }
-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 10%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-}
 
 .box2 {
     width: 550px; /* Adjust as needed */
